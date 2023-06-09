@@ -1,26 +1,22 @@
+@font-face {
+    font-family: 'HonokaShinMaruGothic';
+    src: url('../fonts/Honoka-Shin-Maru-Gothic_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-color: #F9E9D4;
     color: #452e25;
+    font-family: 'HonokaShinMaruGothic', sans-serif;
 } 
 
 html{
     font-size: 100%;
 }
-
-@font-face {
-    font-family: 'HonokaShinMaruGothic';
-    src: url('../fonts/Honoka-Shin-Maru-Gothic_R.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1 {
-    font-family: 'HonokaShinMaruGothic', sans-serif;
-}
-  
 
 header{
     display: flex;
