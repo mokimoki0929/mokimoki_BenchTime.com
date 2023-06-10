@@ -5,43 +5,110 @@
     font-style: normal;
 } 
 
-*{
-    padding: 0;
-    margin: 0;
+* {
     box-sizing: border-box;
-    background-color: #F9E9D4;
-    color: #452e25;
-    font-family: 'HonokaShinMaruGothic', sans-serif;
-} 
-
-html{
-    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'HonokaShinMaruGothic';
 }
-
-header{
+  
+html {
+    height: 100%;
+}
+  
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #f9e9d4;
+}
+  
+header {
+    height: 80px;
+    line-height: 80px;
     display: flex;
     justify-content: space-between;
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: #F9E9D4;
+    padding: 0 4%;
+    position: relative;
+    width: 100vw;
+    z-index: 1;
 }
-
-ul{
-    display: flex;
-    margin-top: 28px;
-}
-
-li{
-    list-style: none;
-    margin: 30px;
-    margin-right: auto;
+  
+header a {
+    text-decoration: none;
+    color: #452e25;
     font-size: 16px;
 }
+  
+header ul {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+  
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+  
+.firstview h1 {
+    color: #452e25;
+    font-size: 96px;
+    padding-top: 210px;
+    margin-left: 135px;
+    position: relative;
+    z-index: 1;
+}
 
-a{
-    text-decoration: none;
+.white {
+    color: #ffffee;
+}
+  
+.bg {
+    background-image: url(img/bg1.jpg);
+    width: 1160px;
+    height: 606px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    z-index: 1;
+}
+
+.bc{
+    background-color: #f5cba7;
+    width: 790px;
+    height: 820px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.big-bg {
+    height: 720px;
 }
 
 header img{
-    max-width: 62.5%;
+    max-width: 50%;
+}
+
+.about {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    border-bottom: solid 2px #a44a3f;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
 }
