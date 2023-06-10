@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'HonokaShinMaruGothic';
+    src: url('../fonts/Honoka-Shin-Maru-Gothic_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'HonokaShinMaruGothic';
+}
+  
+html {
+    height: 100%;
+}
+  
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #f9e9d4;
+    color: #452e25;
+}
+  
+header {
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    position: relative;
+    width: 100vw;
+    z-index: 1;
+}
+  
+header a {
+    text-decoration: none;
+    color: #452e25;
+    font-size: 16px;
+}
+  
+header ul {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+  
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+  
+.firstview h1 {
+    color: #452e25;
+    font-size: 96px;
+    padding-top: 210px;
+    margin-left: 135px;
+    position: relative;
+    z-index: 1;
+}
+
+.white {
+    color: #ffffee;
+}
+  
+.bg {
+    background-image: url(../img/bg1.jpg);
+    width: 1160px;
+    height: 606px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    z-index: 1;
+}
+
+.bc{
+    background-color: #f5cba7;
+    width: 790px;
+    height: 820px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.big-bg {
+    height: 720px;
+}
+
+header img{
+    max-width: 50%;
+}
+
+.about {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    border-bottom: solid 3px #a44a3f;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+    line-height: 45px;
+}
+
+.emphasis {
+    text-emphasis: filled #452e25;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.slider {
+    width: 90%;
+    margin: 0 auto 80px;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.mypattern{
+    width: 100%;
+}
+
+.mypattern .slick-slide{
+    margin: 5px;
+}
+
+.mypattern .slick-slide:not(.slick-center) {
+    -webkit-filter: opacity(70%);
+    -moz-filter: opacity(70%);
+    -o-filter: opacity(70%);
+    -ms-filter: opacity(70%);
+    filter: opacity(70%);
+    transition: 0.2s linear;
+}
+
+.slide-arrow {
+    background-color: #333;
+    bottom: 0;
+    height: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+.prev-arrow {
+    border-bottom: 10px solid #333;
+    border-left: 0;
+    border-right: 10px solid #fff;
+    border-top: 10px solid #333;
+    left: -25px;
+}
+
+.next-arrow {
+    border-bottom: 10px solid #333;
+    border-left: 10px solid #fff;
+    border-right: 0;
+    border-top: 10px solid #333;
+    right: -25px;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding: 0;
+}
+
+.good {
+    margin-top: 100px;
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+}
+
+.good .center {
+    text-align: center;
+}
+
+.subtitle {
+    padding-top: 60px;
+    font-size: 32px;
+}
+
+.husen1 {
+    position: relative;
+}
+
+.husen1 img {
+    position: absolute;
+    top: 60px;
+    left: 220px;
+    width: 420px;
+}
+
+.pote {
+    font-size: 20px;
+    text-align: left;
+}
+
+.text1 {
+    position: absolute;
+    top: 80px;
+    left: 280px;
+}
+
+.husen2 {
+    position: relative;
+}
+
+.husen2 img {
+    position: absolute;
+    top: 60px;
+    right: 220px;
+    width: 420px;
+}
+
+.text2 {
+    position: absolute;
+    top: 80px;
+    right: 330px;
+}
+
+.husen3 {
+    position: relative;
+}
+
+.husen3 img {
+    position: absolute;
+    top: 230px;
+    right: 530px;
+    width: 420px;
+}
+
+.text3 {
+    position: absolute;
+    top: 250px;
+    right: 640px;
+}
