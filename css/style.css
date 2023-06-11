@@ -773,12 +773,12 @@ h2 {
 
     .q_text {
         font-size: 16px;
-        margin-top: 5px;
+        margin-top: 0;
     }
     
     .a_text{
         font-size: 16px;
-        margin-top: 20px;
+        margin-top: 16px;
     }
 }
 
