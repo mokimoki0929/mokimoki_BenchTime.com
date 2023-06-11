@@ -161,7 +161,7 @@ header img {
     }
 
     .about {
-        margin-top: 220px;
+        margin-top: 190px;
     }
 
     .about_text {
@@ -246,7 +246,7 @@ button {
     }
 
     .slick-slide img {
-        width: 240px;
+        width: 75%;
         margin: 0 auto;
     }
 
@@ -784,7 +784,7 @@ h2 {
     
     .a_text{
         font-size: 16px;
-        margin-top: 16px;
+        margin-top: 18px;
     }
 }
 
