@@ -160,6 +160,10 @@ header img {
         font-size: 30px;
     }
 
+    .about {
+        margin-top: 250px;
+    }
+
     .about_text {
         font-size: 14px;
         line-height: 30px;
@@ -236,10 +240,13 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+    .content {
+        margin-top: 20px;
+    }
 
     .slick-slide img {
         width: 240px;
-        margin-left: 13%;
+        margin: 0 auto;
     }
 
     .mypattern .slick-slide {
@@ -541,11 +548,11 @@ h2 {
     }
 
     .box img {
-        width: 380px;
+        width: 85%;
     }
 
     .textbox {
-        width: 380px;
+        width: 85%;
         height: 230px;
     }
 
@@ -558,7 +565,7 @@ h2 {
     }
 
     .spetextbox {
-        width: 380px;
+        width: 85%;
         height: 300px;
     }
 
@@ -650,13 +657,18 @@ h2 {
         text-align: center;
     }
 
+    .title_container {
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .accent {
         width: 0;
         height: 0;
     }
 
     .all_text {
-        margin-left: 60px;
+        margin-left: 0;
         padding-top: 60px;
     }
 
@@ -678,6 +690,7 @@ h2 {
         text-align: left;
         padding-top: 370px;
         font-size: 16px;
+        margin-left: 15%;
     }
 
     .none {
@@ -740,7 +753,8 @@ h2 {
     }
 
     .ans {
-        margin-left: 5%;
+        margin-left: 0;
+        text-align: center;
     }
 
     .title_container {
@@ -749,6 +763,7 @@ h2 {
 
     .qabox {
         width: 90%;
+        margin: 30px auto;
     }
 
     .under {
