@@ -570,7 +570,7 @@ h2 {
     }
 
     .spetextbox p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .kugi1 {
@@ -819,6 +819,7 @@ footer p {
 
     .logo {
         margin: 0 30%;
+        margin-top: 10px;
     }
 
     .logo img {
