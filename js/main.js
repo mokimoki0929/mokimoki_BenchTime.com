@@ -9,6 +9,14 @@ $("document").ready(function(){
       adaptiveHeight: true,
       centerPadding: '25%',
       prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-      nextArrow: '<button class="slide-arrow next-arrow"></button>'
+      nextArrow: '<button class="slide-arrow next-arrow"></button>',
+      responsive: [
+        {
+            breakpoint: 769,
+            settings: {
+                centerMode: false,
+            },
+        },
+      ],
     });
   });
