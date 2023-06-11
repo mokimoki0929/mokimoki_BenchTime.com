@@ -4,6 +4,7 @@ $("document").ready(function(){
       autoplaySpeed: 2500,
       speed: 800,
       dots: false,
+      arrows: true,
       centerMode: true,
       adaptiveHeight: true,
       centerPadding: '25%',
