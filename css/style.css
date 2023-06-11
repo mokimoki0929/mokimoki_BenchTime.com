@@ -44,7 +44,8 @@ header {
     z-index: 1;
 }
 
-a {
+header a,
+#menu a {
     text-decoration: none;
     color: #452e25;
     font-size: 16px;
