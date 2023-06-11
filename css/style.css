@@ -161,12 +161,13 @@ header img {
     }
 
     .about {
-        margin-top: 250px;
+        margin-top: 220px;
     }
 
     .about_text {
         font-size: 14px;
         line-height: 30px;
+        margin-top: -70px;
     }
 }
 
@@ -749,8 +750,12 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+    .qa {
+        margin-top: 40px;
+    }
     .qa .title {
         margin-left: 7%;
+        margin-bottom: 20px;
     }
 
     .ans {
@@ -764,7 +769,7 @@ h2 {
 
     .qabox {
         width: 90%;
-        margin: 30px auto;
+        margin: 25px auto;
     }
 
     .under {
