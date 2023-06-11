@@ -57,7 +57,7 @@ ul {
     color: #452e25;
     font-size: 96px;
     padding-top: 210px;
-    margin-left: 135px;
+    margin-left: 120px;
     position: relative;
     z-index: 1;
 }
@@ -108,7 +108,7 @@ header img{
     text-align: center;
 }
 
-.text {
+.about_text {
     font-size: 20px;
     text-align: left;
     display: inline-block;
@@ -190,7 +190,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 800px;
+    height: 770px;
 }
 
 .good .center {
@@ -256,4 +256,229 @@ button {
     position: absolute;
     top: 250px;
     right: 640px;
+}
+
+.husen4 {
+    position: relative;
+}
+
+.husen4 img {
+    position: absolute;
+    top: 405px;
+    left: 220px;
+    width: 420px;
+}
+
+.text4 {
+    position: absolute;
+    top: 440px;
+    left: 280px;
+}
+
+.husen5 {
+    position: relative;
+}
+
+.husen5 img {
+    position: absolute;
+    top: 405px;
+    right: 220px;
+    width: 420px;
+}
+
+.text5 {
+    position: absolute;
+    top: 425px;
+    right: 370px;
+}
+
+.active .title {
+    padding-top: 75px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.box img {
+    width: 400px;
+    height: 250px;
+}
+
+.textbox {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 250px;
+}
+
+h2 {
+    font-size: 32px;
+    padding-top: 30px;
+}
+
+.textbox p {
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.spetextbox {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    width: 1080px;
+    height: 250px;
+}
+
+.spetextbox p {
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.join {
+    margin-top: 70px;
+    background-color: #f5cba7;
+    height: 740px;
+    position: relative;
+}
+
+.left {
+    text-align: left;
+}
+
+.all_text {
+    margin-left: 180px;
+    padding-top: 120px;
+}
+
+.join_text {
+    padding-top: 90px;
+    font-size: 20px;
+}
+
+.join img {
+    border-radius: 7%;
+}
+
+.accent {
+    width: 415px;
+    height: 235px;
+    background-color: #a44a3f;
+    border-radius: 10px;
+    position: absolute;
+    top: 45px;
+    left: 640px;
+    z-index: 1;
+}
+
+.z2 {
+    width: 515px;
+    height: 425px;
+    border-radius: 10px;
+    background-image: url(../img/honshinkan.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 110px;
+    right: 240px;
+    z-index: 2;
+}
+
+.z3 {
+    width: 335px;
+    height: 265px;
+    border-radius: 10px;
+    background-image: url(../img/party.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 370px;
+    right: 180px;
+    z-index: 3;
+}
+
+.qa {
+    margin-top: 70px;
+}
+
+.qa .title {
+    margin-left: 180px;
+    margin-bottom: 70px;
+}
+
+.ans {
+    margin-left: 180px;
+}
+
+.qabox {
+    width: 1080px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #ffffee;
+    text-align: center;
+    margin-bottom: 30px;
+    border: solid 3px #333;
+}
+
+.under {
+    border-bottom: solid 1px #333;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 1050px;
+    height: 35px;
+    text-align: left;
+}
+
+.q_text_f {
+    font-size: 0;
+}
+
+.q_text {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.a_text {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 70px;
+    background-color: #f5cba7;
+}
+
+.logo-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 500px;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.p {
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: center;
 }
