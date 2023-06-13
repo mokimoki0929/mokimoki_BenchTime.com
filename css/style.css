@@ -63,77 +63,77 @@ header ul {
     padding-inline-start: 40px;
 }
 
-#menu{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-	z-index: 100;
+#menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100;
     display: none;
 }
 
-#menu div{
-	width: 60px;
-	height: 60px;
-	background: #a44a3f;
-	overflow: hidden;
-	position: absolute;
-	right: 0;
+#menu div {
+    width: 60px;
+    height: 60px;
+    background: #a44a3f;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
 }
 
-#menu .menuopen{
-	color: #ffffee;
-	font-size: 40px;
-	display: block;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 10px;
-	pointer-events: auto;
+#menu .menuopen {
+    color: #ffffee;
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    pointer-events: auto;
 }
 
-#menu .menuclose{
-	color: #ffffee;
-	font-size: 40px;
-	display: none;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 20px;
-	pointer-events: auto;
+#menu .menuclose {
+    color: #ffffee;
+    font-size: 40px;
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    pointer-events: auto;
 }
 
-#menu ul{
-	background: #ffffee;
-	width: 100%;
-	position: absolute;
-	top: 60px;
-	right: 0;
-	display: none;
+#menu ul {
+    background: #ffffee;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display: none;
 }
 
-#menu li{
-	padding: 10px;
-	color: #452e25;
-	border-bottom: 1px #555353 solid;
+#menu li {
+    padding: 10px;
+    color: #452e25;
+    border-bottom: 1px #555353 solid;
     margin-bottom: -1px;
-	pointer-events: auto;
+    pointer-events: auto;
 }
 
-#menu:target .menuopen{
-	display: none;
+#menu:target .menuopen {
+    display: none;
 }
 
-#menu:target .menuclose{
-	display: block;
+#menu:target .menuclose {
+    display: block;
 }
 
-#menu:target ul{
-	display: block;
+#menu:target ul {
+    display: block;
 }
 
 .firstview h1 {
@@ -337,7 +337,7 @@ button {
         height: 40px;
         left: 10%;
     }
-    
+
     .next-arrow {
         width: 20px;
         height: 40px;
@@ -831,6 +831,7 @@ h2 {
     .qa {
         margin-top: 40px;
     }
+
     .qa .title {
         margin-left: 7%;
         margin-bottom: 20px;
@@ -859,8 +860,8 @@ h2 {
         font-size: 16px;
         margin-top: 0;
     }
-    
-    .a_text{
+
+    .a_text {
         font-size: 16px;
         margin-top: 23px;
     }
