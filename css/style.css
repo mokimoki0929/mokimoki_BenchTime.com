@@ -478,68 +478,65 @@ button {
     }
 
     .husen1 img {
-        width: 300px;
         top: 50px;
-        left: 50px;
     }
 
     .text1 {
-        position: absolute;
         top: 65px;
-        left: 100px;
     }
 
     .husen2 img {
-        width: 300px;
         top: 130px;
-        left: 50px;
     }
 
     .text2 {
-        width: 250px;
-        position: absolute;
         top: 145px;
-        left: 100px;
     }
 
     .husen3 img {
-        width: 300px;
         top: 210px;
-        left: 50px;
     }
 
     .text3 {
-        width: 250px;
-        position: absolute;
         top: 225px;
-        left: 100px;
     }
 
     .husen4 img {
-        width: 300px;
         top: 290px;
-        left: 50px;
     }
 
     .text4 {
-        width: 250px;
-        position: absolute;
         top: 315px;
-        left: 100px;
     }
 
     .husen5 img {
-        width: 300px;
         top: 370px;
-        left: 50px;
     }
 
     .text5 {
-        width: 250px;
-        position: absolute;
         top: 385px;
-        left: 100px;
     }
+
+    .husen1 img,
+    .husen2 img,
+    .husen3 img,
+    .husen4 img,
+    .husen5 img {
+        width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .text1,
+    .text2,
+    .text3,
+    .text4,
+    .text5 {
+        width: 250px;
+        left: 55%;
+        transform: translateX(-50%);
+    }
+
 }
 
 .active .title {
