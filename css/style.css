@@ -383,7 +383,7 @@ button {
 .husen__item {
     position: relative;
     display: inline-block;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .husen__item:nth-of-type(1) {
@@ -415,7 +415,7 @@ button {
     font-size: 20px;
     padding-left: 65px;
     position: absolute;
-    top: 60%;
+    top: 55%;
     transform: translateY(-50%);
 }
 
@@ -424,12 +424,17 @@ button {
         font-size: 20px;
     }
 
+    .husen__item {
+        padding-top: 0;
+    }
+
     .husen__item--background {
         width: 90%;
     }
 
     .husen__item--text {
         font-size: 15px;
+        top: 45%;
     }
 }
 
