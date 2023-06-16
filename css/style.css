@@ -374,7 +374,7 @@ button {
 
 @media screen and (max-width: 768px) {
     .good {
-        height: 630px;
+        height: 730px;
     }
 
     .subtitle {
@@ -382,159 +382,76 @@ button {
     }
 }
 
-.husen1 {
-    position: relative;
+.husen_box {
+    margin-top: 100px;
 }
 
-.husen1 img {
-    position: absolute;
-    top: 60px;
-    left: 220px;
-    width: 420px;
+.husen_bottom,
+.husen_top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding-bottom: 70px;
 }
 
-.pote {
+.husen_middle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.ht {
     font-size: 20px;
-    text-align: left;
+    margin-top: -90px;
 }
 
-.text1 {
-    position: absolute;
-    top: 80px;
-    left: 280px;
-}
-
-.husen2 {
-    position: relative;
-}
-
-.husen2 img {
-    position: absolute;
-    top: 60px;
-    right: 220px;
-    width: 420px;
-}
-
-.text2 {
-    position: absolute;
-    top: 80px;
-    right: 330px;
-}
-
-.husen3 {
-    position: relative;
-}
-
-.husen3 img {
-    position: absolute;
-    top: 230px;
-    right: 530px;
-    width: 420px;
-}
-
-.text3 {
-    position: absolute;
-    top: 250px;
-    right: 640px;
-}
-
-.husen4 {
-    position: relative;
-}
-
-.husen4 img {
-    position: absolute;
-    top: 405px;
-    left: 220px;
-    width: 420px;
-}
-
-.text4 {
-    position: absolute;
-    top: 440px;
-    left: 280px;
-}
-
-.husen5 {
-    position: relative;
-}
-
-.husen5 img {
-    position: absolute;
-    top: 405px;
-    right: 220px;
-    width: 420px;
-}
-
-.text5 {
-    position: absolute;
-    top: 425px;
-    right: 370px;
+.h_4 p {
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
-    .pote {
-        font-size: 15px;
+    .husen_box {
+        margin-top: 50px;
     }
 
-    .husen1 img {
-        top: 50px;
+    .h_2 {
+        margin-top: 40px;
     }
 
-    .text1 {
-        top: 65px;
+    .h_3 {
+        margin: -70px 0;
     }
 
-    .husen2 img {
-        top: 130px;
+    .husen_top,
+    .husen_middle,
+    .husen_bottom {
+        justify-content: start;
+        flex-direction: column;
     }
 
-    .text2 {
-        top: 145px;
+    .husen_top {
+        margin: 50px 0;
     }
 
-    .husen3 img {
-        top: 210px;
-    }
-
-    .text3 {
-        top: 225px;
-    }
-
-    .husen4 img {
-        top: 290px;
-    }
-
-    .text4 {
-        top: 315px;
-    }
-
-    .husen5 img {
-        top: 370px;
-    }
-
-    .text5 {
-        top: 385px;
-    }
-
-    .husen1 img,
-    .husen2 img,
-    .husen3 img,
-    .husen4 img,
-    .husen5 img {
+    .img_husen {
         width: 300px;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
-    .text1,
-    .text2,
-    .text3,
-    .text4,
-    .text5 {
-        width: 250px;
-        left: 55%;
-        transform: translateX(-50%);
+    .ht {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .husen_bottom {
+        margin: -30px 0;
+    }
+
+    .h_5 {
+        margin-top: 60px;
+    }
+
+    .h_4 p {
+        padding-top: 30px;
     }
 
 }
