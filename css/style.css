@@ -40,7 +40,7 @@ header {
     justify-content: space-between;
     padding: 0 4%;
     position: relative;
-    width: 100vw;
+    width: 100%;
     z-index: 1;
 }
 
@@ -355,105 +355,82 @@ button {
 }
 
 .good {
-    margin-top: 100px;
+    margin-top: 10%;
     background-image: url(../img/bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height: 770px;
+    padding: 65px 0;
 }
 
-.good .center {
-    text-align: center;
-}
-
-.subtitle {
-    padding-top: 60px;
+.good > .subtitle {
     font-size: 32px;
 }
 
-@media screen and (max-width: 768px) {
-    .good {
-        height: 730px;
-    }
+.husen_wrapper {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template: 'a b' 'c c' 'd e';
+}
 
-    .subtitle {
+@media screen and (max-width: 768px) {
+    .husen_wrapper {
+        margin-top: 36px;
+        grid-template: 'a' 'b' 'c' 'd' 'e';
+    }
+}
+
+.husen__item {
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.husen__item:nth-of-type(1) {
+    grid-area: a;
+}
+
+.husen__item:nth-of-type(2) {
+    grid-area: b;
+}
+
+.husen__item:nth-of-type(3) {
+    grid-area: c;
+}
+
+.husen__item:nth-of-type(4) {
+    grid-area: d;
+}
+
+.husen__item:nth-of-type(5) {
+    grid-area: e;
+}
+
+.husen__item--inner {
+    display: inline-block;
+}
+
+.husen__item--text {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 65px;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+    .good > .subtitle {
         font-size: 20px;
     }
-}
 
-.husen_box {
-    margin-top: 100px;
-}
-
-.husen_bottom,
-.husen_top {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10%;
-    padding-bottom: 70px;
-}
-
-.husen_middle {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 70px;
-}
-
-.ht {
-    font-size: 20px;
-    margin-top: -90px;
-}
-
-.h_4 p {
-    padding-top: 10px;
-}
-
-@media screen and (max-width: 768px) {
-    .husen_box {
-        margin-top: 50px;
+    .husen__item--background {
+        width: 90%;
     }
 
-    .h_2 {
-        margin-top: 40px;
-    }
-
-    .h_3 {
-        margin: -70px 0;
-    }
-
-    .husen_top,
-    .husen_middle,
-    .husen_bottom {
-        justify-content: start;
-        flex-direction: column;
-    }
-
-    .husen_top {
-        margin: 50px 0;
-    }
-
-    .img_husen {
-        width: 300px;
-    }
-
-    .ht {
+    .husen__item--text {
         font-size: 15px;
-        padding-top: 20px;
     }
-
-    .husen_bottom {
-        margin: -30px 0;
-    }
-
-    .h_5 {
-        margin-top: 60px;
-    }
-
-    .h_4 p {
-        padding-top: 30px;
-    }
-
 }
 
 .active .title {
